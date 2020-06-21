@@ -14,6 +14,7 @@ import {
 } from 'react-router-dom'
 import In from './In'
 import {Card,Button} from 'react-bootstrap'
+import Footer from './Footer';
 
 
 
@@ -47,11 +48,11 @@ class India extends Component {
     console.warn(this.state)
     return (
 
-      <div>
+      <div className="App">
        
         <In/>
       
-      <div> <h2 className="ab">|Indian state Affected data</h2></div>
+       <h2 className="ab">|Indian state Affected data</h2>
       <br/><br/>
  
 
@@ -72,7 +73,12 @@ class India extends Component {
                </tr>
              </thead>
              <tbody>
-               <b>Please wait while we fetch data for you...</b>
+               <br/>
+               <br/>
+               <br/>  
+               <div className="App" > <b>Please wait we are fetching data...</b>
+               <img className="tig" src="/images/loa.gif" alt="First slide"/>
+            </div>
              </tbody>
              {/* <tbody>
                Please
@@ -95,9 +101,11 @@ class India extends Component {
              
              </tbody> */}
            </table>
+          
          </div>
          : <p>Please wait..</p>
      }
+      
      </div>
      <div className="right">
        <br/>
@@ -110,33 +118,16 @@ class India extends Component {
   </Card>
        <b><br/><h2></h2></b>
        
-       <br/>
-       <br/>
-       <br/>
+     
        <br/><img className="rig" src="/images/IMG_20200616_165304.jpg" alt="First slide"/>
-
-         
-       <br/>
-       <br/>
-       <br/>
-
-       <Card  style={{ width: '18rem' }}>
-       <div className="Head">
-  <Card.Body>
-   
-    <Card.Text>
-    <b><h4 className="abc">Steps</h4> to prevent coronavirus</b> <br/>Read and share this with others
-    </Card.Text>
-    <Button variant="primary">Learn how</Button>
-  
-  </Card.Body>
-  </div>
-</Card>
-
+      
+       
        </div>
-    
+     
+     
    </div>
-  
+ 
+
  );
 }
 

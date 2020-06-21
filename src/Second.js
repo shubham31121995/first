@@ -86,7 +86,7 @@ class Second extends Component {
             <Card.Text>No of cases:{item.cases}</Card.Text>
           
             <Card.Text>No of deaths:{item.deaths}</Card.Text>
-            <Card.Text>Today Deaths:{item.todayDeaths}</Card.Text>
+         
             <Card.Text>Recovered:{item.recovered}</Card.Text>
            
             <Card.Text>Critical no of people:{item.critical}</Card.Text>

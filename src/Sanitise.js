@@ -30,7 +30,7 @@ class Sanitise extends Component {
   
   </div>
   <div className="column">
-    <img className="a" src="/images/ava.jpg" alt="Mountains"/>
+    <img className="a" src="/images/avoid.jpg" alt="Mountains"/>
   <b>  <br/>Avoid close contact with <br/> perople who are sick</b>
   </div>
   <br/><br/>
