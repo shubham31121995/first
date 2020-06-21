@@ -40,7 +40,7 @@ list: myJson.India
       
         <CardDeck>
 
-          <Card bg="secondary" text={"white"}>
+          <Card bg="secondary" text={"white"} style={{margin:"10px"}}>
             <Card.Body>
               <Card.Title>Cases</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ list: myJson.India
               <small>Last updated  mins ago</small>
             </Card.Footer>
           </Card>
-          <Card bg="danger" text={"white"}>
+          <Card bg="danger" text={"white"} style={{margin:"10px"}}>
 
             <Card.Body>
               <Card.Title>Death</Card.Title>
@@ -63,7 +63,7 @@ list: myJson.India
               <small >Last updated mins ago</small>
             </Card.Footer>
           </Card>
-          <Card bg="success" text={"white"}>
+          <Card bg="success" text={"white"} style={{margin:"10px"}}>
 
             <Card.Body>
               <Card.Title>Recovered</Card.Title>

@@ -10,8 +10,8 @@ class API extends Component {
   constructor() {
     super();
     this.state = {
-    list:{},
-   
+      list: {},
+
     }
   }
 
@@ -36,7 +36,7 @@ class API extends Component {
 
         <CardDeck>
 
-          <Card bg="secondary" text={"white"}>
+          <Card bg="secondary" text={"white"} style={{margin:"10px"}}>
             <Card.Body>
               <Card.Title>Cases</Card.Title>
               <Card.Text>
@@ -47,7 +47,7 @@ class API extends Component {
               <small>Last updated  mins ago</small>
             </Card.Footer>
           </Card>
-          <Card bg="danger" text={"white"}>
+          <Card bg="danger" text={"white"} style={{margin:"10px"}}>
 
             <Card.Body>
               <Card.Title>Death</Card.Title>
@@ -59,7 +59,7 @@ class API extends Component {
               <small >Last updated mins ago</small>
             </Card.Footer>
           </Card>
-          <Card bg="success" text={"white"}>
+          <Card bg="success" text={"white"} style={{margin:"10px"}}>
 
             <Card.Body>
               <Card.Title>Recovered</Card.Title>
@@ -77,8 +77,8 @@ class API extends Component {
           <img src="/images/covid19.png" alt="" />
         </div>
         <br /><br />
-       
-<Second />
+
+        <Second />
       </div>
     );
   }

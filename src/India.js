@@ -72,6 +72,10 @@ class India extends Component {
                </tr>
              </thead>
              <tbody>
+               <b>Please wait while we fetch data for you...</b>
+             </tbody>
+             {/* <tbody>
+               Please
              {
                 this.state.list.map((item, i) =>
                  
@@ -89,7 +93,7 @@ class India extends Component {
                 )
              }
              
-             </tbody>
+             </tbody> */}
            </table>
          </div>
          : <p>Please wait..</p>
